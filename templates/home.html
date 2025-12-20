@@ -8,7 +8,7 @@
         <style>
             body {
                 font-family: "Avenir Next", sans-serif;
-                margin: 20px;
+                margin: 30px 40px;
             }
 
             a {
@@ -96,20 +96,27 @@
             /* Fixed Action Buttons */
             .fixed-actions {
                 position: fixed;
-                left: 20px;
-                top: 50%;
+                left: 45vw;
+                bottom: -10px;
                 transform: translateY(-50%);
                 display: flex;
-                flex-direction: column;
-                gap: 15px;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
                 z-index: 1000;
+                background: #ecebeb;
+                border-radius: 20px;
+                box-shadow: 0 6px 20px rgba(17, 17, 17, 0.25);
+                margin: auto;
+                padding: 15px;
             }
 
             .fixed-btn {
                 width: 45px;
                 height: 45px;
                 background: linear-gradient(135deg, #121212 0%, #454545 100%);
-                border-radius: 10%;
+                border-radius: 10px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
